@@ -1,0 +1,34 @@
+Sejarah Kotlin
+    > Bahasa pemograman Kotlin dikenalkan oleh perusahaan JetBrains pada tahun 2011
+    > Awalnya Kotlin adalah bahasa pemograman yang berjalan diatas JVM(Java Virtual Machine)
+    > Kotlin di desain agar terintergrasi dengan Java (karena ekosistem Java sangat luas)
+    > Pada Tahun 2019, Google mengumumkan bahwa Kotlin adalah bahasa pemograman yang direkomendasikan untuk pengembangan aplikasi android
+
+Kenapa Belajar Kotlin?
+    > java adalah bahasa pemograman palin gpopuler di dunia
+    > Ekosistem teknologi pendukung Java sudah sanagt besar besar dan dewasa
+    > Kotlin adalah bahasa pemograman yang dapat berjalan diatas JVM
+    > Bahasa pemograman Kotlin lebih elegan dan sederhana dibandingkan java
+    > Kotlin menjadi bahasa pemograman utama untuk pengembangan aplikasi android
+    > Spring (framework backend Java terpopuler) sekarang sudah mendukung Kotlin
+
+Software Development Kit (SDK)
+    > SDK adalah perangkat lunak yang digunakan untuk proses Development
+    > SDK digunakan untuk melakukan kompilasi kode program Kotlin dan menjalankan Kode program Kotlin
+    > Java Development Kit versi 8 ke atas
+    > https://jdk/java.net/
+
+Proses Development Program Kotlin
+    Java Development Kit (JDK)                                 Java Runtime Environment (JRE)
+            |                                                          |
+    ------------------------                                           |
+    |compile               | Binary                                    |
+Kode Kotlin (File.Kt) --> Java Binary (File.class) -------------> Java Archive (File.jar)
+    NOte: - jika dalam development hanya perlu install JDK, dalam JDK udh ada JRE
+          - jika dalam Production kita hanya wajib install JRE
+
+Integrated Development Environment
+    > IDE adalah smart editor yang digunakan unutk mengedit kode program Kotlin
+    > IDE juga digunakan untuk melakukan otomatisasi proses kompilasi kode program Kotlin dan otomatisasi proses menjalankan program Kotlin
+    > JetBrains Intellij IDEA
+    > https://www.jetbrains.com/idea/
