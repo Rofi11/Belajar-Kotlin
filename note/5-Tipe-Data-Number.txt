@@ -1,0 +1,41 @@
+Tipe Data Number
+    > ada banyak jenis Tipe data number, ini seperti tipe data number di Java
+    > Dibagi 2:
+        > Integer
+            > Type    Size(bits)          Min-Value         Max-value
+              Byte      8                   -128                127
+              Short     16                  -32768              32767
+              Int       32                -2,147,483,648        2,147,483,647
+              Long      64              -9,223,372,036,854,...  9,223,372,036,854,...
+            > Pemilihan size penting ketika mau buat number, karena itu mempengaruhi jangkauan number
+            > umum nya yang biasaya dipakai Type Int
+            > Ciri khusus utk type Long di ujung nya harus ada L, sisanya mah tidak perlu
+                cth: var valance: Long = 100000L
+        > Float
+            > Type      Size    Significant-bits    Exponent-bits     Decimal-digits
+              Float      32         24                  8               6 - 7
+              Double     64         53                  11              15 - 16
+            > Biasanya cukup menggunakan Double untuk float
+            > menggunakan titik
+            > ciri khusus type Float harus ada F di ujung, jika double tidak perlu
+                cth => var value: Float = 98.98F
+                       var radius: Double = 234234.5353
+        > Literals
+            > Yang berguan utk memasukan colour grading dengan decimal,hexadecimal,binaryLiteral
+            > kode khusus nya (wajib dimasukan)
+                > Hexadecimal dengan 0x ==> 0xfffff (putih)
+                > binaryLiteral dengan 0b ==> 0b1010101 (85)
+                cth => var hexadecimalLiteral : int = 0xff
+
+        > Underscore
+            > bisa menambahkan undercosre kedalam angka
+            > Biasa nya digunakan sebagai pemisah (agar mudah dibaca)
+
+        > Conversion
+            > menggunakan built-function dari kotlin nya
+                > .toByte() -> mengkonversi ke byte
+                > .toShort() -> mengkonversi ke short
+                > .toInt() -> mengkonversi ke interger
+                > .toLong() -> mengkonversi ke Long
+                > .toFloat() -> mengkonversi ke Float
+                > .toDouble() -> mengkonversi ke Double
