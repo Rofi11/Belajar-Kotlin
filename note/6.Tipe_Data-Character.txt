@@ -1,0 +1,5 @@
+Tipe Data Character
+    > Data karakter (huruf), di kotlin direpresentasikan oleh tipe Char.
+    > Untuk membuat data char, di kotlin bisa menggunakan tanda ''(petik satu)
+    > jika lebih dari 1 character akan di anggap error dan itu dianggap string
+    > Tipe data character pun bisa di isi oleh angka
