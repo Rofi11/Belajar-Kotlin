@@ -1,0 +1,18 @@
+Tipe Data String
+    > Tipe data string Adalah tipe data yang berisikan data kumpulan karakter atau sederhananya adalaha teks.
+    > Di kotlin, tipe data string direpresentasikan dengan kata kunci String.
+    > Untuk membuat string di kotlin, kita bisa menggunakan
+        * " (tanda petik 2) untuk teks satu baris
+        * """ (tanda petik 2 sebanyak 3 kali) untuk teks lebih dari satu baris
+            * cara mengabungkan beberapa line bisa dengan .trimMargin() -> mencari karakter pipe di ubah otomatis dan menghilangkan identasi tidak perlu
+            * atau dengan .trimIndent(), akan otoamtis hilangin indentasi, default nya ini
+    > Menggabungkan string
+        * kadang kita butuh melakukan menggabungkan data string
+        * Untuk melakukan penggabungan data string, kita bisa menggunakan Operator + (kurang rekomendasi)
+        * yang rekomendasi ada nya nya string template dengan dolar -> $
+            > String Template
+                * String Template adalah kemampuan strin gdi kotlin yang mendukung ekspresi template
+                * dengan string template, secara otomatis kita bisa mengakses data dari luar teks string
+                * $ adalah tanda yang digunakan untuk template ekspresi sederhana, seperti mengakses variable lain
+                * ${isi ekspresi} adalah tanda yang digunakan untuk template ekspresi yang kompleks
+
