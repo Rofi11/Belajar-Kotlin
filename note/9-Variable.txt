@@ -1,0 +1,27 @@
+Variable
+    > Variable adalah tempat untuk menyimpan data
+    > Kotlin mendukung 2 jenis variable: Mutable (bisa diubah) dan Immutable (Tidak bisa diubah)
+    > Untuk membuat variable Mutable, di kotlin bisa menggunakan kata kunci var
+        * Maksud nya dengan tipe data yang sama karena static languange seperti java, c#, typescript
+    > Untuk membuat varibale Immutable, di kotlin bisa menggnakan kata kunci val
+        * ini bersifat block code (local)
+
+    Deklarasi Variabel
+    > val/var nama_variabel : TipeData = data
+    > Direkomendasikan mneggunakan Immutable dibanding Mutable data (untuk keamanan data)
+    > Deklarasi tipe data itu Optional, karena kotlin bisa tau
+
+    Nullable
+    > bagaimana cara nya di kotlin jika tidak ingin mengisi data nya dulu?
+    > secara stndar, variable di kotlin harus dideklarasikan / diinisialisasikan nilainya
+    > jika saat membuat variable, tidak di beri nilai, maka akan error
+    > Kotlin mendukung variable yang boleh null (tidak memiliki data)
+    > Ini dikarenakan Kotlin bisa mengakses Jaca, dan kebanyakan di Java semua variable bisa null
+    > Untuk membuat variable bisa bernilai null, di kotlin bisa menggunakan? (tanda tanya) setelah tipe datanya.
+    > penggunaan fitur in itidak direkomendasikan untuk dilakukan di kotlin, hanya sebagai jalan teralhir jika misal mengakses kode Java
+
+    Variable COnstant
+    > Constant adalah Immutable data, yang biasanya di akses untuk keperluan global
+    > Global artinya bisa diakses dimanapun
+    > Untuk menandai bahwa variable tersebut adalah constant, biasanya menggunakan UPPER_CASE dalam pembuatan nama variable constant nya
+        * Const val NAMA_VARIABLE : TipeData = Data
