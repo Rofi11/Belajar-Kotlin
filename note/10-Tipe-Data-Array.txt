@@ -1,0 +1,17 @@
+Tipe Data Array
+    > Array adalah tipe data yang berisikan kumpulan data dengan tipe yang sama (WAJIB SAMA)
+    > Tipe data array di kotlin direpresentasikan dengan kata kunci Array
+    > index di array dimulai dari 0, ini digunakan untuk mengakses data nya juga
+
+Operasi Array (utk mengakses dan memanipulasi array)
+    OPERASI                            KETERANGAN
+   > size                               Untuk mendapatkan panjang Array
+   > get(index)                         Mendapatkan data di posisi index
+   > [index]                            Mendapatkan data di posisi index
+   > set(index, value)                  Mengubah data di posisi index
+   > [index] = value                    Mengubah data di posisi index
+    * note : data array itu fix, jadi setelah membuat tidka bisa di tambahkan dan dikurangi, dan data yang di masukan jika kelebihan akan menyebabkan error
+
+Array Nullable
+    > Secara standard data di Array di Kotlin tidak boleh null
+    > jika kita butuh membuat Array yang datanya boleh null, kita bisa menggunakan ? (tanda tanya), terus memasukan ukuran array nya
