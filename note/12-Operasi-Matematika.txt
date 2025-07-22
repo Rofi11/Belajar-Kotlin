@@ -1,0 +1,28 @@
+1. Operasi Matematika
+    Operator                    keterangan
+   > +                          Penjumlahan
+   > -                          Pengurangan
+   > *                          Perkalian
+   > /                          Pembagian
+   > %                          Sisa Pembagian (Modulus)
+
+   Note :
+   1.kotlin sama seperti Java, jika melakukan pembagian dalam desimal (integer) maka hasil akhir nya akan Integer lagi
+    * cth 10/ 3 = 3, tidak akan 3.3, jika ingin mendapatkan 3.3 maka type data nya diganti oleh double
+   2. Operasi nya sudah scientific --> KAKABATAKU (KALI, BAGI, TAMBAH, KURANG) , jadi Operasi nya akan memprioritaskan pembagian dan perkalian terlebih dahulu.
+
+2. Augmented Assignments (mempersingkat sintaks)
+    Operasi Matematika          Augmented Assignments
+   > a = a + 10                 a += 10
+   > a = a - 10                 a -= 10
+   > a = a * 10                 a *= 10
+   > a = a / 10                 a /= 10
+   > a = a % 10                 a %= 10
+
+3. Unary Operator
+    Operator                    keterangan
+   > ++                         increment (a = a + 1)
+   > --                         decrement (a = a - 1)
+   > -                          Negative (wajib di declare kalo mau menunjukan minus/Negative)
+   > +                          Positive (default dari semua integer)
+   > !                          Boolean kebalikan
