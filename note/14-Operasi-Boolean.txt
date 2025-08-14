@@ -1,0 +1,27 @@
+Operasi Boolean
+    Digunakan untuk membandingkan/menggabungkan 2 buah boolean
+    Template hasil nya tuh sudah pasti sesuai dengan Tabel Operasi nya
+
+1.  Operator            Keterangan
+   - &&                 Dan/ And
+   - ||                 Atau / Or
+   - !                  Kebalikan / negasi
+
+2. Tabel Operasi && (ke 2 nya harus true jika ingin true)
+    Nilai 1     Operator    Nilai 2     Hasil
+   - true        &&          true        true
+   - true        &&          false       false
+   - false       &&          true        false
+   - false       &&          false       false
+
+3. Tabel Operasi || (akan true jika salah satu nya true)
+    Nilai 1     Operator    Nilai 2     Hasil
+   - true       ||          true        true
+   - true       ||          false       true
+   - false      ||          true        true
+   - false      ||          false       false
+
+4. Tabel Operasi !
+    Operator    Nilai 2     Hasil
+   - !          true        false
+   - !          false       true
