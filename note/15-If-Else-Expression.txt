@@ -1,0 +1,37 @@
+If Else Expression Dalam kotlin
+
+1. If Expression
+    > Dalam kotlin, if adalah salah satu kata kunci yang digunakan untuk percabangan
+    > Percabangan artinya kita bisa mengeksekusi kode program tertentu ketika suatu kondisi terpenuhi
+    > Hampir di semua bahasa pemograman mendukung if expression
+
+    * Cara membuat if expression di kotlin -> dalam kondisi wajib boolean
+        if (kondisi boolean) {
+            // jika kondisi bernilai true
+            // maka isi blok if akan di eksekusi
+        } else {
+            // jika kondisi bernilai false
+            // maka isi blok else akan di eksekusi
+        }
+
+2. Else Expression
+    > Block if akan dieksekusi ketika kondisi if bernilai true
+    > kadang kita ingin melakukan eksekusi program tertentu jika kondisi id bernilai false
+    > hal ini bisa dilakukan menggunakan else expression
+
+3. Else if expression
+    > kadang dalam if, kita butuh membuat beberapa kondisi
+    > kasus seperti ini, di kotlin kita bisa menggunakan else if expression
+    > else if tidak memiliki batasan
+
+    * Cara membuat if, else id, dan else di kotlin
+        if (kondisi boolean 1) {
+            // jika kondisi 1 bernilai true
+        } else if kondisi boolean 2) {
+            // jika kondisi 2 bernilai true
+        }else if kondisi boolean 3) {
+            // jika kondisi 3 bernilai true
+        } else {
+            // jika kondisi bernilai false
+            // maka isi blok else akan di eksekusi
+        }
