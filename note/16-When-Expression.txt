@@ -1,0 +1,16 @@
+When Expression di Kotlin sama dengan switch expression di JS
+
+When expression
+    > Selain if Expression, untuk melakukan percabangan di Kotlin, kita juga bisa menggunakan When Expression
+    > When expression sangat sederhana dibandingkan if
+    > Biasanya when expression digunakan untuk melakukan pengecekan ke kondisi dalam satu variabel, dan lebih dipake untuk kasus-kasus sederhana
+
+Ada beberapa Teknik yang bisa digunakan didalam When (Contoh ada di 16-When-Expression.kt)
+    1. When biasa
+    2. Multiple Options/grouping
+    3. When expression in
+    4. When expression is --> digunakan utk mengecek type data nya
+    5. When Sebagai pengganti If Else
+        > Selain pengecekan terhadap variabel
+        > When juga dapat digunakan sebagai pengganti if else
+        > untuk mengganti if else dengan when, kita tidak perlu menggunakan variable dalam when
