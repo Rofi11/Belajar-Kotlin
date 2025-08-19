@@ -1,0 +1,5 @@
+For Loops di Kotlin
+    > Dalam bahasa pemograman, biasanya ada fitur yang bernama perulangan
+    > Salah satu fitur perulangan di Kotlin adalah for
+    > For digunakan untuk melakukan perulangan iterasi dari data iterator (Array, Range, dan Lain-lain)
+    > dan bisa di kombinasikan antara range dan Array
