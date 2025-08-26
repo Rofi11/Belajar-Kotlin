@@ -1,0 +1,8 @@
+While Loops
+    > perulangan ini lebih flexible
+    > While adalah salah satu perulangan yang ada di kotlin
+    > While adalah salah satu perulangan yang sangat flexible, dimana kode while akan melakukan pengecekan kondisi, jika kondisi bernilai true, maka dia akan menjalankan blok while dan terus di ulangi sampai kondisi while bernilai false
+
+note :
+    > hati hati kondisi nya harus bisa jadi false
+    > 3 element penting : iterasi(kondisi), block code, increment -> ketiga hal ini harus ada
